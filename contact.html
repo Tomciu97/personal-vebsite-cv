@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magdalena Jeznach-Machalska - CV</title>
+    <link rel="shortcut icon" href="public/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/hamburger.css">
+    <link rel="stylesheet" href="style/media.css">
+    <link rel="stylesheet" href="style/resume.css">
+    <link rel="stylesheet" href="style/constact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <nav>
+        <div id="main-name-title">
+            <div id="square"></div>
+            <span id="full-name">Magdalena Jeznach-Machalska</span>
+            <span id="work-name">/ PIELĘGNIARKA</span>
+        </div>
+        <div class="nav-menu">
+            <a href="/index.html" class="nav-item">O mnie</a>
+            <a href="/resume.html" class="nav-item">Curriculum Vitae</a>
+            <a href="/certificates.html" class="nav-item">Certyfikaty</a>
+            <a href="/contact.html" class="nav-item active-link">Kontakt</a>
+        </div>
+        <div class="hamburger-button">
+            <span class="hamburger-item"></span>
+            <span class="hamburger-item" id="middle-hamburger-item"></span>
+            <span class="hamburger-item"></span>
+        </div>
+    </nav>
+    <main id="main-resume">
+        <div id="cv-title">
+            <div id="square"></div>
+            <h1>Zapraszam do kontaktu</h1>
+        </div>
+        <section class="resume-container">
+            <article class="contact-item">
+                <div id="name-box">
+                    <div class="contact-data-box">
+                        <label for="first-name">Imię</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                    </div>
+                    <div class="contact-data-box">
+                        <label for="last-name">Nazwisko</label>
+                        <input type="text" name="last-name" id="last-name" required>
+                    </div>
+
+                </div>
+                <div id="email-box">
+                    <div class="contact-data-box">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="contact-data-box">
+                        <label for="subject">Temat</label>
+                        <input type="text" name="subject" id="subject" required>
+                    </div>
+                    <div class="contact-data-box">
+                        <label for="message">Wiadomość</label>
+                        <textarea name="message" id="message" rows="10">
+                        </textarea>
+                    </div>
+                    <button class="button send-button"><a href="#">Wyślij</a></button>
+                </div>
+            </article>
+        </section>
+        
+    </main>
+    <footer class="footer">
+        <div class="author">
+            <p>&copy 2021 by Tomasz Lipiński</p>
+            <p>Powered by <a href="https://icons.getbootstrap.com/">Boostrap 5 Icons</a></p>
+        </div>
+        <div class="author-contact">
+            <div>
+                <p><strong>Zadzwoń</strong></p>
+                <p>+48 504 028 211</p>
+            </div>
+            <div>
+                <p><strong>Napisz</strong></p>
+                <p>tomek.lipinski97@gmail.com</p>
+            </div>
+            <div class="icons-div">
+                <p><strong>Sprawdź</strong></p>
+                <div class="icons">
+                    <a href="#"><i class="bi bi-facebook"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-github"></i></a>
+                    <a href="#"><i class="bi bi-person-circle"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script/navbar.js"></script>
+</body>
+
+</html>

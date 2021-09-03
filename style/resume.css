@@ -1,0 +1,120 @@
+
+#main-resume {
+    background-color: #F5C6AA;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+#cv-title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 150px auto;
+    height: 15%;
+}
+
+#resume-experience {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.resume-container {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.resume-item {
+    width: 100%;
+    height: 450px;
+    margin-top: 70px;
+    background-color: #FDF6F0;
+    box-shadow: 8px 10px 10px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    align-items: center;
+}
+
+.resume-item-left, .resume-item-right {
+    width: 50%;
+    
+}
+
+.resume-item-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.resume-item-right {
+    margin-right: 40px;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.resume-item-left * {
+    margin-bottom: 20px;
+}
+
+.resume-item-left h2 {
+    font-family: 'Georama', sans-serif;
+    color: #007bff
+}
+
+.resume-item-left h4 {
+    font-family: 'Georama', sans-serif;
+    font-weight: 400;
+}
+
+.resume-skills {
+    width: 100%;
+    height: 450px;
+    margin-top: 40px;
+    background-color: #FDF6F0;
+    box-shadow: 8px 10px 10px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+}
+
+.resume-item-skills, .resume-item-languages {
+    height: 50%;
+}
+
+.resume-item-skills h2, .resume-item-languages h2 {
+    font-family: 'Georama', sans-serif;
+    font-weight: 700;
+  
+}
+
+.resume-item-languages {
+    margin-top: 50px;
+}
+
+.experience-point {
+    display: flex;
+    align-items: center;
+    margin: 40px auto;
+    font-family: 'Georama', sans-serif;
+    font-weight: 300;
+}
+
+#skills-points {
+    display: flex;
+    margin: 20px;
+}
+
+#skills-points > div:last-child {
+    margin-left: 70px;
+}
+
+.download-button {
+    width: 20%;
+    background-color: #007bff;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+}
+.download-button > a {
+    color: white;
+    text-decoration: none;
+}

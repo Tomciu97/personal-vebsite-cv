@@ -1,0 +1,38 @@
+@media screen and (max-width: 1407px) {
+    .primary-button {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:1300px) {
+    #right-site {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width:1050px){
+
+    #main-name-title {
+        position: absolute;
+        top: 40px;
+        left: 20px;
+    }
+
+    #right-site-text {
+        margin-bottom: 40px;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .hamburger-button {
+        position: absolute;
+        top: 10px;
+        right: 40px;
+    }
+
+    .hamburger-button, .hamburger-button * {
+        display: block;
+    }
+}
